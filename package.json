@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack --config webpack.config.js && go run main.go",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "deploy": "webpack --config webpack.config.js && docker build . -t colemalphrus/signedkiki:micro && docker push colemalphrus/signedkiki:micro"
   },
   "repository": {
     "type": "git",

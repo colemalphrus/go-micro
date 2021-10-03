@@ -1,0 +1,30 @@
+{
+  "name": "go-micro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack --config webpack.config.js && go run main.go",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colemalphrus/go-micro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colemalphrus/go-micro/issues"
+  },
+  "homepage": "https://github.com/colemalphrus/go-micro#readme",
+  "dependencies": {
+    "svelte": "^3.43.1",
+    "svelte-loader": "^3.1.2"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.3.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
